@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Studio Dentistico D’ERMES | Roma</title>
+  <meta name="description" content="Studio Dentistico D’ERMES a Roma. Gnatologia, implantologia, restaurativa e ortodonzia (anche pediatrica). Prenotazioni telefoniche: 06 4506 656 / 328 2570935." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Studio Dentistico D’ERMES | Roma" />
+  <meta property="og:description" content="Gnatologia, implantologia, restaurativa e ortodonzia (anche pediatrica). Prenotazioni telefoniche." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Top bar -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span class="pill">📍 Via Monti Tiburtini 558, Roma</span>
+      </div>
+      <div class="topbar__right">
+        <a class="topbar__link" href="tel:+39064506656" aria-label="Chiama 06 4506 656">📞 06 4506 656</a>
+        <span class="dot">•</span>
+        <a class="topbar__link" href="tel:+393282570935" aria-label="Chiama 328 2570935">📱 328 2570935</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Nav -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#home" aria-label="Studio Dentistico D'ERMES - Home">
+        <span class="brand__mark">D</span>
+        <span class="brand__text">
+          <strong>Studio Dentistico</strong>
+          <span>D’ERMES</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Navigazione principale">
+        <a class="nav__link" href="#trattamenti" data-i18n="nav_treatments">Trattamenti</a>
+        <a class="nav__link" href="#team" data-i18n="nav_team">Il Team</a>
+        <a class="nav__link" href="#recensioni" data-i18n="nav_reviews">Recensioni</a>
+        <a class="nav__link" href="#contatti" data-i18n="nav_contact">Contatti</a>
+      </nav>
+
+      <div class="actions">
+        <button class="lang" id="langToggle" type="button" aria-label="Cambia lingua">IT / EN</button>
+        <a class="btn btn--primary" href="tel:+39064506656" data-i18n="cta_call">Chiama per prenotare</a>
+        <button class="burger" id="burger" type="button" aria-label="Apri menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile" id="mobileMenu" aria-hidden="true">
+      <div class="container mobile__inner">
+        <a class="mobile__link" href="#trattamenti" data-i18n="nav_treatments">Trattamenti</a>
+        <a class="mobile__link" href="#team" data-i18n="nav_team">Il Team</a>
+        <a class="mobile__link" href="#recensioni" data-i18n="nav_reviews">Recensioni</a>
+        <a class="mobile__link" href="#contatti" data-i18n="nav_contact">Contatti</a>
+
+        <div class="mobile__cta">
+          <a class="btn btn--primary w100" href="tel:+39064506656" data-i18n="cta_call">Chiama per prenotare</a>
+          <a class="btn btn--ghost w100" href="tel:+393282570935" data-i18n="cta_call_alt">Chiama (cellulare)</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="home" class="hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <h1 data-i18n="hero_title">Cura dentale completa, con approccio professionale e personalizzato</h1>
+        <p class="lead" data-i18n="hero_subtitle">
+          Specializzati in gnatologia, implantologia, restaurativa e ortodonzia (adulti e bambini).
+          Prenotazioni esclusivamente via telefono.
+        </p>
+
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="tel:+39064506656" data-i18n="cta_call_now">Chiama ora</a>
+          <a class="btn btn--ghost" href="#contatti" data-i18n="cta_directions">Contatti e indicazioni</a>
+        </div>
+
+        <div class="note" role="note">
+          <span class="note__icon">ℹ️</span>
+          <span data-i18n="booking_note">Per prenotare una visita, chiamaci: non utilizziamo moduli online.</span>
+        </div>
+
+        <div class="badges">
+          <div class="badge">
+            <span class="badge__title" data-i18n="badge_1_t">Approccio clinico</span>
+            <span class="badge__text" data-i18n="badge_1_s">Diagnosi accurata e piani su misura</span>
+          </div>
+          <div class="badge">
+            <span class="badge__title" data-i18n="badge_2_t">Ortodonzia</span>
+            <span class="badge__text" data-i18n="badge_2_s">Adulti e bambini</span>
+          </div>
+          <div class="badge">
+            <span class="badge__title" data-i18n="badge_3_t">Comfort</span>
+            <span class="badge__text" data-i18n="badge_3_s">Attenzione al paziente</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__card" aria-label="Prenotazione telefonica">
+        <h2 data-i18n="card_title">Prenotazioni</h2>
+        <p data-i18n="card_text">Prenota telefonicamente:</p>
+
+        <div class="phones">
+          <a class="phone" href="tel:+39064506656">
+            <span class="phone__label" data-i18n="phone_landline">Telefono</span>
+            <span class="phone__num">06 4506 656</span>
+          </a>
+          <a class="phone" href="tel:+393282570935">
+            <span class="phone__label" data-i18n="phone_mobile">Cellulare</span>
+            <span class="phone__num">328 2570935</span>
+          </a>
+        </div>
+
+        <div class="divider"></div>
+
+        <h3 data-i18n="card_address_t">Indirizzo</h3>
+        <p class="muted">Via Monti Tiburtini 558, Roma</p>
+
+        <a class="btn btn--secondary w100" target="_blank" rel="noopener"
+           href="https://www.google.com/maps/search/?api=1&query=Via%20Monti%20Tiburtini%20558%2C%20Roma"
+           data-i18n="cta_maps">
+          Apri su Google Maps
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Treatments -->
+  <section id="trattamenti" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2 data-i18n="treat_title">Trattamenti</h2>
+        <p class="section__sub" data-i18n="treat_sub">
+          Percorsi di cura personalizzati, dalla diagnosi alla riabilitazione.
+        </p>
+      </div>
+
+      <div class="grid">
+        <article class="card">
+          <h3 data-i18n="t1">Gnatologia</h3>
+          <p data-i18n="t1d">Valutazione della funzione masticatoria e dell’occlusione quando indicato (ATM, bruxismo, tensioni).</p>
+        </article>
+
+        <article class="card">
+          <h3 data-i18n="t2">Implantologia</h3>
+          <p data-i18n="t2d">Soluzioni implantari per sostituire denti mancanti, con pianificazione e riabilitazione protesica.</p>
+        </article>
+
+        <article class="card">
+          <h3 data-i18n="t3">Restaurativa / Conservativa</h3>
+          <p data-i18n="t3d">Cura e ricostruzione dei denti con materiali funzionali ed estetici.</p>
+        </article>
+
+        <article class="card">
+          <h3 data-i18n="t4">Ortodonzia (adulti e bambini)</h3>
+          <p data-i18n="t4d">Allineamento dentale e correzione delle malocclusioni con piani dedicati a ogni età.</p>
+        </article>
+      </div>
+
+      <div class="center mt">
+        <a class="btn btn--primary" href="tel:+39064506656" data-i18n="cta_call">Chiama per prenotare</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section id="team" class="section section--alt">
+    <div class="container">
+      <div class="section__head">
+        <h2 data-i18n="team_title">Il Team</h2>
+        <p class="section__sub" data-i18n="team_sub">
+          Un team dedicato alla cura del paziente, con attenzione all’ascolto e alla qualità del percorso clinico.
+        </p>
+      </div>
+
+      <div class="card card--wide">
+        <p class="muted" data-i18n="team_note">
+          Qui puoi inserire nomi, qualifiche, foto e breve profilo dei professionisti.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section id="recensioni" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2 data-i18n="rev_title">Recensioni Google</h2>
+        <p class="section__sub" data-i18n="rev_sub">
+          Recensioni verificate su Google. Leggi tutte le recensioni dal profilo ufficiale.
+        </p>
+      </div>
+
+      <div class="reviewbox">
+        <div class="reviewbox__stars" aria-label="Valutazione su Google">
+          <span aria-hidden="true">★★★★★</span>
+        </div>
+        <p class="reviewbox__text" data-i18n="rev_text">
+          I pazienti apprezzano la professionalità e l’attenzione al comfort durante il percorso di cura.
+        </p>
+
+        <div class="reviewbox__actions">
+          <a class="btn btn--ghost" target="_blank" rel="noopener"
+             href="https://maps.app.goo.gl/FZWhPHHHUovejtcs9" data-i18n="rev_cta">
+            Leggi le recensioni su Google
+          </a>
+          <a class="btn btn--primary" href="tel:+39064506656" data-i18n="cta_call_now">Chiama ora</a>
+        </div>
+
+        <p class="fineprint" data-i18n="rev_note">
+          Nota: per policy Google, le singole recensioni vengono consultate direttamente su Google.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contatti" class="section section--alt">
+    <div class="container">
+      <div class="section__head">
+        <h2 data-i18n="contact_title">Contatti</h2>
+        <p class="section__sub" data-i18n="contact_sub">Prenotazioni esclusivamente via telefono.</p>
+      </div>
+
+      <div class="contact">
+        <div class="contact__left card">
+          <h3 data-i18n="contact_info">Informazioni</h3>
+          <p><strong data-i18n="address_label">Indirizzo:</strong> Via Monti Tiburtini 558, Roma</p>
+          <p><strong data-i18n="phone_label">Telefono:</strong> <a href="tel:+39064506656">06 4506 656</a></p>
+          <p><strong data-i18n="mobile_label">Cellulare:</strong> <a href="tel:+393282570935">328 2570935</a></p>
+
+          <div class="divider"></div>
+
+          <div class="hours">
+            <h4 data-i18n="hours_title">Orari di apertura</h4>
+
+            <ul class="hours__list">
+              <li><span data-i18n="mon">Lunedì</span><span>15:00 – 20:00</span></li>
+              <li><span data-i18n="tue">Martedì</span><span>09:30 – 19:30</span></li>
+              <li><span data-i18n="wed">Mercoledì</span><span>09:30 – 14:30</span></li>
+              <li><span data-i18n="thu">Giovedì</span><span>15:00 – 20:00</span></li>
+              <li><span data-i18n="fri">Venerdì</span><span>09:30 – 19:30</span></li>
+            </ul>
+
+            <p class="fineprint" data-i18n="hours_note">
+              Gli orari possono variare per esigenze cliniche. Per conferma, chiamaci.
+            </p>
+          </div>
+
+          <div class="contact__cta">
+            <a class="btn btn--primary" href="tel:+39064506656" data-i18n="cta_call">Chiama per prenotare</a>
+            <a class="btn btn--ghost" target="_blank" rel="noopener"
+               href="https://www.google.com/maps/search/?api=1&query=Via%20Monti%20Tiburtini%20558%2C%20Roma"
+               data-i18n="cta_maps">
+              Apri su Google Maps
+            </a>
+          </div>
+        </div>
+
+        <div class="contact__right card">
+          <h3 data-i18n="map_title">Mappa</h3>
+          <div class="mapframe">
+            <iframe
+              title="Mappa Studio Dentistico D'ERMES"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Via%20Monti%20Tiburtini%20558%2C%20Roma&output=embed">
+            </iframe>
+          </div>
+          <p class="fineprint" data-i18n="map_note">
+            Se la mappa non si carica, usa il pulsante “Apri su Google Maps”.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <strong>Studio Dentistico D’ERMES</strong>
+        <div class="muted">Via Monti Tiburtini 558, Roma</div>
+      </div>
+      <div class="footer__links">
+        <a href="tel:+39064506656">06 4506 656</a>
+        <span class="dot">•</span>
+        <a href="tel:+393282570935">328 2570935</a>
+        <span class="dot">•</span>
+        <a href="#home" data-i18n="back_top">Torna su</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="fineprint" data-i18n="footer_note">
+        Prenotazioni esclusivamente via telefono. Privacy/Cookie: aggiungi qui i link se richiesti.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky mobile call bar -->
+  <div class="callbar" aria-label="Barra chiamata rapida">
+    <a class="callbar__btn" href="tel:+39064506656" data-i18n="callbar_call">Chiama</a>
+    <a class="callbar__btn callbar__btn--alt" href="tel:+393282570935" data-i18n="callbar_mobile">Cellulare</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
